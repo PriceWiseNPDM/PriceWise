@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PriceWise</title>
+</head>
+<body>
+    <div class="animated-background">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">PriceWise</div>
+            <ul class="steps">
+                <li id="step-indicator-0" class="current">1. Company type</li>
+                <li id="step-indicator-1">2. State</li>
+                <li id="step-indicator-2">3. Business details</li>
+                <li id="step-indicator-3">4. Team</li>
+                <li id="step-indicator-4">5. Personal details</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="help-section">
+                <a href="#" class="help-link">Having trouble? <span>Get Help</span></a>
+            </header>
+
+            <!-- Step Content -->
+            <div id="step-content" class="step active">
+                <h1>PriceWise</h1>
+                <p>Find your product's optimal price in seconds!</p>
+            </div>
+
+            <div id="step-1" class="step">
+                <h2>FRQ and MCQ Questions</h2>
+                <p>(Look at Pranav's Doc)</p>
+                <p>Upload docs and label what it is</p>
+            </div>
+
+            <div id="step-2" class="step">
+                <h2>Your optimal price is...</h2>
+                <h3>XYZ Price</h3>
+            </div>
+
+            <div id="step-3" class="step">
+                <h2>Submit your Details</h2>
+                <p>Any additional info or documents</p>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="button-group">
+                <button class="prev-btn" onclick="prevStep()">Previous</button>
+                <button class="next-btn" onclick="nextStep()">Next</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
